@@ -3,11 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string></string>
+	<string>com.birnstiel.togglewifi</string>
 	<key>category</key>
 	<string>Tools</string>
 	<key>connections</key>
 	<dict>
+		<key>06C9C4A9-38CE-441A-8D06-E2F2D8B39B60</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DCE40446-4F98-4CDF-91A5-5E69114B97CD</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>C77A3BB1-1A84-44CE-AAAC-231B68614D53</key>
 		<array>
 			<dict>
@@ -84,9 +97,30 @@ else:
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<true/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>Wifi was toggled {query}</string>
+				<key>title</key>
+				<string>Toggle Wifi</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>DCE40446-4F98-4CDF-91A5-5E69114B97CD</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>Simple workflow to toggle wifi on or off.</string>
 	<key>uidata</key>
 	<dict>
 		<key>06C9C4A9-38CE-441A-8D06-E2F2D8B39B60</key>
@@ -103,8 +137,17 @@ else:
 			<key>ypos</key>
 			<integer>50</integer>
 		</dict>
+		<key>DCE40446-4F98-4CDF-91A5-5E69114B97CD</key>
+		<dict>
+			<key>xpos</key>
+			<integer>495</integer>
+			<key>ypos</key>
+			<integer>50</integer>
+		</dict>
 	</dict>
+	<key>version</key>
+	<string>0.2</string>
 	<key>webaddress</key>
-	<string></string>
+	<string>https://www.github.com/birnstiel/toggle-wifi</string>
 </dict>
 </plist>
